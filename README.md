@@ -9,23 +9,40 @@ Installation GuideLines :-
 Install this libraries :
 
 pip install transformers
+
 pip install pycaret
+
 pip install flask
 
 Import this libraries : 
 
 import numpy as np
+
 import pandas as pd
+
 import pycaret
+
 import transformers
+
 from transformers import AutoModel, BertTokenizerFast
+
 import matplotlib.pyplot as plt
+
 from sklearn.metrics import ConfusionMatrixDisplay
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import classification_report
+
 import torch
+
 import torch.nn as nn
+
 import pickle
+
 from flask import Flask, render_template, request
+
 from transformers import AutoModel, BertTokenizerFast
+
 import numpy as np
+
